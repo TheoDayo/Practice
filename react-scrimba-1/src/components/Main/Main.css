@@ -1,0 +1,35 @@
+h1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 39.06px;
+    line-height: 47px;
+}
+
+
+ul li::marker {
+
+    color: #61DAFB;
+    font-size: 30px;
+
+    
+}
+li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.main {
+    display: flex;
+
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url('./react-half.png');
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
+

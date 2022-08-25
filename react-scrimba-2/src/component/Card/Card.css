@@ -1,0 +1,48 @@
+.gray {
+    color: #918E9B;
+}
+
+.card-slideshow {
+    width: 80%;
+    font-size: 14px;
+    display: flex;
+    flex-direction: horizontal;
+    margin: 20px auto;
+}
+
+.card {
+    width: 175px;
+    margin: 0 15px;
+        position: relative;
+}
+
+.img-div {
+    height: 235px;
+    border-radius: 9px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+}
+.stats > * {
+    margin-right: 7px;
+}
+
+.stats > img {
+    width: 20px;
+}
+
+.card-badge {
+    float: left;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        padding: 2px 5px;
+        background-color: #F2F2F2;
+        border-radius: 5px;
+        margin:6px 6px;
+        font-weight: bold;
+}
